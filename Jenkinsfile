@@ -16,7 +16,7 @@ pipeline {
 
     stage('Deploy') {
       when {
-        branch 'main && tester'
+        branch 'main || tester'
       }
       steps {
         sh '''
