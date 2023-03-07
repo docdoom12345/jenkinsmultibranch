@@ -19,7 +19,7 @@ pipeline {
         branch 'main'
       }
       steps {
-        sh ''''
+        sh '''
         sudo rm -rf jenkinsmultibranch/
         sudo git clone https://github.com/docdoom12345/jenkinsmultibranch.git
         cd jenkinsmultibranch
